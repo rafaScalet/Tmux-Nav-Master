@@ -33,3 +33,8 @@ tmux bind -T copy-mode-vi   C-Left                 resize-pane -L 3
 tmux bind -T copy-mode-vi   C-Down                 resize-pane -D 3
 tmux bind -T copy-mode-vi   C-Up                   resize-pane -U 3
 tmux bind -T copy-mode-vi   C-Right                resize-pane -R 3
+
+tmux bind                   h                      previous-window
+tmux bind                   j                      switch-client -n
+tmux bind                   k                      switch-client -p
+tmux bind                   l                      next-window
