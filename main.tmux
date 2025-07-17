@@ -38,3 +38,7 @@ tmux bind                   h                      previous-window
 tmux bind                   j                      switch-client -n
 tmux bind                   k                      switch-client -p
 tmux bind                   l                      next-window
+
+tmux bind                   C-M-h                  swap-window -t:-1
+tmux bind                   C-M-l                  swap-window -t:+1
+
